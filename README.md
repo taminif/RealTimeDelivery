@@ -1,7 +1,7 @@
 # RealTimeDelivery
 Live video distribution apps by using SkyWay
 
-ライブ配信ができるアプリです
+ライブ配信ができるアプリです  
 アプリ同士で配信、受信が可能です
 
 ## How to build
