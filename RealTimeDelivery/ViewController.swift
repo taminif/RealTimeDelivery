@@ -177,16 +177,6 @@ class ViewController: UIViewController, UITextFieldDelegate, UITableViewDataSour
         return cell
     }
 
-    func tableView(_ tableView: UITableView, willSelectRowAt indexPath: IndexPath) -> IndexPath? {
-        switch indexPath.row {
-        case 0:
-            return indexPath;
-        case 1:
-            return nil;
-        default:
-            return indexPath;
-        }
-    }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let roomName = self.roomNames[indexPath.row]
         let roomRef = self.db.collection("rooms").document(roomName)
